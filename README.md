@@ -256,9 +256,9 @@ All triggers and stored procedures are included in the SQL dump and are demonstr
 | # | Name | Description |
 |---|---|---|
 | 1 | `GetCustomersInBalanceRange` | Returns all customers with account balances within a given min–max range |
-| 2 | Employees by Date Range | returns employees whose WorksIn.StartFrom date is inside
+| 2 | 'Employees by Date Range' | returns employees whose WorksIn.StartFrom date is inside
 the submitted date interval |
-| 3 | Transaction Count by Customer | receives a customer ID and returns the number of transactions |
+| 3 | 'Transaction Count by Customer' | receives a customer ID and returns the number of transactions |
 
 ---
 
