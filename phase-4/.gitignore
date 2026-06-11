@@ -1,0 +1,14 @@
+# Composer-installed dependencies. Each developer runs `composer install` locally
+# in Scripts/user and Scripts/admin to regenerate these folders from composer.lock.
+Scripts/user/vendor/
+Scripts/admin/vendor/
+
+# OS noise
+.DS_Store
+Thumbs.db
+
+# Editor noise
+.vscode/
+.idea/
+*.swp
+*~

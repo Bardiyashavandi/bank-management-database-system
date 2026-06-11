@@ -1,0 +1,17 @@
+# XAMPP / local config
+config.local.php
+.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# PHP dependencies
+vendor/
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
