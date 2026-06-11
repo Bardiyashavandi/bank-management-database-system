@@ -249,15 +249,16 @@ All triggers and stored procedures are included in the SQL dump and are demonstr
 |---|---|---|
 | 1 | Account Balance Guard | Prevents an account balance from being set to a negative value |
 | 2 | Employee Work Date Validation | Ensures employee work start date is not in the future |
-| 3 | *(third trigger)* | *(see `SQLDump.sql` and `trigger_3.php`)* |
+| 3 | Transaction Amount Validation | prevents inserting transactions with zero or negative amounts |
 
 ### Stored Procedures
 
 | # | Name | Description |
 |---|---|---|
 | 1 | `GetCustomersInBalanceRange` | Returns all customers with account balances within a given min–max range |
-| 2 | *(second procedure)* | *(see `SQLDump.sql` and `procedure_2.php`)* |
-| 3 | *(third procedure)* | *(see `SQLDump.sql` and `procedure_3.php`)* |
+| 2 | Employees by Date Range | returns employees whose WorksIn.StartFrom date is inside
+the submitted date interval |
+| 3 | Transaction Count by Customer | receives a customer ID and returns the number of transactions |
 
 ---
 
